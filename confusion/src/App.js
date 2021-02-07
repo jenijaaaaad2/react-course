@@ -6,6 +6,7 @@ import { DISHES } from './shared/dishes';
 import { Component } from 'react';
 
 
+
 class App extends Component {
 
   constructor(props) {
@@ -14,7 +15,6 @@ class App extends Component {
       dishes: DISHES
     };
   }
-
 
   render() {
     return (
