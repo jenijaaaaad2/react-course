@@ -12,7 +12,6 @@ import { COMMENTS } from '../shared/comments';
 import { LEADERS } from '../shared/leaders';
 import { PROMOTIONS } from '../shared/promotions';
 
-
 class Main extends Component {
   constructor(props) {
     super(props)
@@ -23,6 +22,7 @@ class Main extends Component {
       promotions: PROMOTIONS
     }
   }
+
   render() {
     const HomePage = () => {
       return (
@@ -33,6 +33,7 @@ class Main extends Component {
         />
       )
     }
+
     const DishWithId = ({match}) => {
       return(
         <DishDetail 
@@ -41,6 +42,7 @@ class Main extends Component {
         />
       )
     }
+
     return (
       <div>
         <Header/>
@@ -57,4 +59,5 @@ class Main extends Component {
     );
   }
 }
+
 export default Main;
